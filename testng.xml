@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="listener.ListenerClass"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+    
+    <class name="TestCase.Allmoduletestcases"/>
+    <!--
+    <class name="TestCase.VerifyDashboard"/>
+     <class name="TestCase.VerifyInsights"/>
+      <class name="TestCase.VerifyRisk"/>
+      
+      <class name="TestCase.VerifyEntityOnboarding"/>
+     <class name="TestCase.VerifyRiskImpact"/>
+     <class name="TestCase.VerifyRiskImpactNegativeTestCase"/>
+     <class name="TestCase.VerifyAssetSummaryValidation"/>   
+     <class name="TestCase.VerifyAssetSummaryValidationNegative"/>
+     
+       <class name="TestCase.VerifyCostOfSecurityControl"/>
+     <class name="TestCase.VerifyCostOfSecurityControlNegative"/>
+     
+     
+      <class name="TestCase.Verify_Advisory"/>
+
+      <class name="TestCase.VerifyAssetSummaryValidation"/>   
+     <class name="TestCase.VerifyAssetSummaryValidationNegative"/>
+      
+     <class name="TestCase.VerifyBrokenLinks"/>
+     <class name="TestCase.VerifyDashboard"/>
+     <class name="TestCase.VerifyInsights"/>
+     <class name="TestCase.VerifyOEI"/>
+     <class name="TestCase.VerifyRiskDashboard"/>
+     <class name="TestCase.VerifyRisk"/>
+     
+     <class name="TestCase.VerifyRoSI"/>
+     <class name="TestCase.VerifyAnalysis_Perspective"/>
+     <class name="TestCase.VerifyAnalysis_SecurityPulse"/>
+     <class name="TestCase.Verify_Advisory"/>
+
+     <class name="TestCase.VerifyEntityOnboarding"/>
+     <class name="TestCase.VerifyAssetSummaryValidation"/>
+     <class name="TestCase.VerifyRiskImpact"/>
+     <class name="TestCase.verifyEditProfile"/>
+     <class name="TestCase.VerifyLoginTestCaseNegative"/>
+     <class name="TestCase.VerifyEditProfileNegative"/>
+     <class name="TestCase.Verify_Analysis_Perspective_Negative"/>
+     <class name="TestCase.VerifyCostOfSecurityControl"/>
+     <class name="TestCase.VerifyCostOfSecurityControlNegative"/>
+     <class name="TestCase.VerifyRiskImpact"/>
+     <class name="TestCase.VerifyRiskImpactNegativeTestCase"/>
+      <class name="TestCase.Verify_RiskForNewUser"/>
+      <class name="TestCase.Verify_UpgradePlan"/>
+
+     
+      -->  
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
